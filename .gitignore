@@ -1,0 +1,9 @@
+#멀 넣어야 하지#
+
+
+node_modules
+bower_components
+.idea/workspace.xml
+
+#logs
+npm-debug.log*
