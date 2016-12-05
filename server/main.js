@@ -21,7 +21,7 @@ let router = express.Router();
 
 app.use(express.static(__dirname + '/../public'));
 
-app.get('hello', (req,res) => {
+app.get('/hello', (req,res) => {
   res.send('Can you hear me? ');
 });
 
